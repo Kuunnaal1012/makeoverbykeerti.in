@@ -1,0 +1,248 @@
+<!DOCTYPE html>    
+<html>    
+<head>  
+  <link rel="stylesheet" href="index.css">
+<meta name="viewport" content="width=device-width, initial-scale=1">    
+<style>    
+* {    
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;    
+}     
+    
+input[type=text], select, textarea {    
+  width: 100%;    
+  padding: 12px;    
+  border: 1px solid rgb(70, 68, 68);    
+  border-radius: 4px;    
+  resize: vertical;    
+}    
+input[type=email], select, textarea {    
+  width: 100%;    
+  padding: 12px;    
+  border: 1px solid rgb(70, 68, 68);    
+  border-radius: 4px;    
+  resize: vertical;    
+}    
+    
+label {    
+  padding: 12px 12px 12px 0;    
+  display: inline-block;    
+}    
+    
+input[type=submit] {    
+  background-color: rgb(37, 116, 161);    
+  color: white;    
+  padding: 12px 20px;    
+  border: none;    
+  border-radius: 4px;    
+  cursor: pointer;    
+  float: right;    
+}    
+    
+input[type=submit]:hover {    
+  background-color: #45a049;    
+}    
+    
+.container {    
+  border-radius: 5px;    
+  background-color: #f2f2f2;    
+  padding: 20px;    
+}    
+    
+.col-25 {    
+  float: left;    
+  width: 25%;    
+  margin-top: 6px;    
+}    
+    
+.col-75 {    
+  float: left;    
+  width: 75%;    
+  margin-top: 6px;    
+}    
+    
+/* Clear floats after the columns */    
+.row:after {    
+  content: "";    
+  display: table;    
+  clear: both;    
+}
+.header{
+color: black;
+position:fixed;
+z-index: 0;
+}    
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */    
+</style>    
+</head> 
+<link rel="stylesheet" href="responsive.css">
+
+<body>
+  <header>
+    <div class ="header">
+      <div class = "logo">
+          <img src="LOGO1.png" width="30rem" height="30rem">
+          <h1>MAKEOVERBYKEERTI</h1>
+      </div>
+      <div class ="navbar">
+          <nav>
+              <a href="">Home</a>
+              <a href="">Gallery</a>
+              <a href="exser.html">Services</a>
+              <a href="">Aboutus</a>
+          </nav>
+      </div>
+    </div>
+      
+    <!-- mob  -->
+
+    <div class="mob-menu">
+      <div class ="mob-head">
+      <img src="LOGO1.png" alt="" height="30px" width="30px">
+      <h3>MAKEOVERBYKEERTI</h3>
+    </div>
+      <img class="mob-open" src="img/svg/open.svg" alt="openSvg" />
+      <div class="mob-wrapper close">
+        <img src="img/svg/close.svg" class="mob-close" alt="closeSvg" />
+        <div class="mob-list">
+         
+          <a href="#" class="mob-list__item">HOME</a>
+          <a href="#" class="mob-list__item">ABOUT</a>
+          <a href="#" class="mob-list__item">SERVICES</a>
+          <a href="#" class="mob-list__item">LOCATION</a>
+        </div>
+      </div>
+    </div>
+  </header>   
+  
+  <style>
+  h2{
+    padding-top: 100px;
+
+ 
+
+    }
+  </style>
+  
+<h2>FEED BACK FORM </h2> 
+
+<div class="container">    
+  <form method="POST" action="mailto:kunalkhandale3132@gmail.com">
+    <div class="row">    
+      <div class="col-25">    
+        <label for="fname">First Name</label>    
+      </div>    
+      <div class="col-75">    
+        <input type="text" id="fname" name="firstname" placeholder="Your name..">    
+      </div>    
+    </div>    
+    <div class="row">    
+      <div class="col-25">    
+        <label for="lname">Last Name</label>    
+      </div>    
+      <div class="col-75">    
+        <input type="text" id="lname" name="lastname" placeholder="Your last name..">    
+      </div>    
+    </div>    
+    <div class="row">    
+        <div class="col-25">    
+          <label for="email">Mail Id</label>    
+        </div>    
+        <div class="col-75">    
+          <input type="email" id="email" name="mailid" placeholder="Your mail id..">    
+        </div>    
+      </div>    
+    <div class="row">    
+      <div class="col-25">    
+        <label for="country">Country</label>    
+      </div>    
+      <div class="col-75">    
+        <select id="country" name="country">    
+            <option value="none">Select Country</option>    
+          <option value="australia">Australia</option>    
+          <option value="canada">Canada</option>    
+          <option value="usa">USA</option>    
+          <option value="russia">Russia</option>    
+          <option value="japan">Japan</option>    
+          <option value="india">India</option>    
+          <option value="china">China</option>    
+        </select>    
+      </div>    
+    </div>    
+    <div class="row">    
+      <div class="col-25">    
+        <label for="feed_back">Feed Back</label>    
+      </div>    
+      <div class="col-75">    
+        <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>    
+      </div>    
+    </div>    
+    <div class="row">    
+      <input type="submit" value="Submit">    
+    </div>    
+  </form>   
+  <section class ="footer">
+    <div class="upp">
+      <div class="location">
+          <h1>VISIT TO STUDIO</h1>
+          <p>Sawi makup studio, near<br>
+            dwarikadhish mandir,maheshwar</p>
+      </div>
+
+      <div class="contact">
+          <h1>CALL US</h1>
+          <p>+91-88895-64343</p>
+      </div>
+
+      <div class="social">
+          <h1>FOLLOW US</h1>
+          <a href="https://www.facebook.com/yourusername" target="_blank" rel="noopener noreferrer">
+              <i class="fab fa-facebook fa-3x" ></i>
+          </a>
+          <a class="insta" href="https://instagram.com/realpalacemaheshwar?igshid=YmMyMTA2M2Y=" target="_blank"
+              rel="noopener noreferrer">
+              <i class="fa fa-instagram" aria-hidden="true"></i>
+          </a>
+      </div>
+  </div>
+  <div class="formb">
+      <h1>GET IN TOUCH</h1>
+      <div class="form2">
+
+          <form method="POST" action="mailto:mailaddress@gmail.com">
+              <div class="form-col">
+                  <div class="col">
+                      <input type="text" class="form-control1" placeholder="Name">
+                  </div>
+                  <div class="col">
+                      <input type="email" class="form-control2" placeholder="Email  Address">
+                  </div>
+              </div>
+
+              <div class="msg-top">
+                  <input type="text" class="form-control3" placeholder="Message">
+
+              </div>
+              <div class="submit" ,>
+                  <input  type="submit" value="Submit Now">
+
+              </div>
+          </form>
+          <div>
+          </div>
+      </div>
+      <div class="credit">
+
+          <p class="mark">© 2023 makeoverbykerti.in</p>
+          <p>Designed & Devloped <a href="https://instagram.com/graphitup_in?igshid=YmMyMTA2M2Y="> <span> </span> by graphitup</a></p>
+
+      </div>
+
+
+  </section> 
+</div>    
+    
+</body>    
+</html>     

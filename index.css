@@ -1,0 +1,672 @@
+*,h1{
+  margin: 0;
+  padding: 0;
+}
+
+@media screen and (min-width: 720px) {
+    .mob-menu {
+      display: none;
+    }
+  }
+@media screen and (max-width: 720px) {
+    .header {
+      display: none;
+    }
+  }
+  .header{
+    height: 8vh;
+  
+display: flex;
+flex-direction: row;  
+justify-content: space-between;
+position: fixed;
+z-index: 1;
+padding-top:1rem ;
+
+
+  }
+
+  .logo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10rem;
+    position: relative;
+    right: 3.8rem;
+  }
+  .logo h1{
+    font-size: 1.65rem;
+    color: aliceblue;
+    margin:0.5rem ;
+    font-family: 'Boogaloo', cursive;
+    letter-spacing: 0.2rem;
+   
+  }
+  .navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    left: 60%;
+
+  }
+  .navbar a{
+  margin-right: 1.5rem;
+  color: white;
+  text-decoration: none;
+  font-size: 1.25rem;
+  font-family: 'Ubuntu', sans-serif;
+  letter-spacing: 0.1rem;
+
+  }
+  .first{
+    background-color: red;
+ align-content: center;
+    min-height: 90vh;
+    width: 100%;
+display: flex;
+align-items: center;
+justify-content: center;
+background-image: url(img/background1.jpg);
+background-image: linear-gradient(rgba(74, 72, 72, 0),rgb(0, 0, 0)),
+url("../img/background1.jpg");
+background-size:100% 140%;
+object-fit: fill;
+background-position: center;
+
+
+;
+  }
+  
+.txt{
+ 
+  /* background-color: blue; */
+  margin-top: auto;
+MIN-height:45vh;
+width:70%;
+text-align: center;
+color: #f5f5f5;
+font-size:2.5rem ;
+letter-spacing: 0.4rem;
+font-family: 'Sura', serif;
+font-weight:lighter;
+
+}
+.txt h1{
+  letter-spacing: 0.35rem;
+  font-family: 'Sura', serif;
+font-weight: 500;  
+}
+.txt span{
+  color: #FF2358;
+}
+.txt h3{
+  font-family: 'Style Script', cursive;
+  position: relative;
+  top: -1rem;
+  font-weight: 300;
+}
+.txt h2{
+  position: relative;
+  top: -1rem;
+}
+.btn0{
+  font-size: 1.2rem;
+padding: 0.5rem 1rem;
+background-color: none;
+border:solid 1px;
+color: #f5f5f5;
+text-decoration: none;
+border-color: #f5f5f5;
+font-family: 'Sura';
+position: relative;
+top: -1.8rem;
+}
+
+.second{
+  background-color:#f5f5f5;
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.major{
+ height: 90%;
+ width:98%;
+ display: flex;
+ flex-direction: row;
+ background-color:#f5f5f5;
+ justify-content: space-around;
+
+
+}
+.cont{
+  width:60%;
+  height: 60vh;
+  background-color:#f5f5f5;
+  margin: auto;
+  text-align: center;
+ 
+
+}
+.cont h1{
+  font-family: 'Viaoda Libre', cursive;
+  margin: auto;
+  margin-top: 2rem;
+  font-size: 2.25rem;
+  letter-spacing: 0.2rem;
+}
+.cont h2{
+  font-size: 3rem;
+  font-family: 'Style Script', cursive;
+  letter-spacing: 0.3rem;
+  margin: 6rem 0 6rem 0;
+}
+.cont p{
+ 
+font-family: 'Sura', serif;
+  font-size: 1.5rem;
+  letter-spacing: 0.12rem;
+  width:90%;
+  margin: auto;
+
+}
+.img{
+  width:28%;
+  height: 70.5vh;
+  background-image: url(img/secimg.png);
+  background-size: 100% 100%;
+  margin: auto;
+  margin-top: 3rem;
+
+}
+.third{
+  background-image: url(img/Rectangle\ 18.png);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.834),rgb(0, 0, 0)),
+url(img/Rectangle\ 18.png);
+  height:60vh;
+  width: 100%;
+}
+.flex{
+  width:100%;
+  background-image: url(img/Rectangle\ 18.png);
+  height: 100%;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+
+}
+.img0{
+
+  width:32%;
+  color: #f5f5f5;
+ display: flex;
+ align-items: end;
+ justify-content: center;
+ background-image: linear-gradient(rgba(0, 0, 0, 0),rgba(0, 0, 0, 0.87)),
+ url(img/IMG_1066\ copy\ 1.png);
+ background-size: 100% 100%;
+
+}
+.img11{
+
+  width:32%;
+  color: #f5f5f5;
+ display: flex;
+ align-items: end;
+ justify-content: center;
+ background-size: 100% 100%;
+ background-image: linear-gradient(rgba(0, 0, 0, 0),rgba(0, 0, 0, 0.87)),
+url(img/new\ year\ broshure\ pic\ 1.png);
+
+
+}
+.img22{
+
+  width:32%;
+  color: #f5f5f5;
+ display: flex;
+ align-items: end;
+ justify-content: center;
+
+ background-size: 100% 100%;
+ background-image: linear-gradient(rgba(0, 0, 0, 0),rgba(0, 0, 0, 0.87)),
+url(img/IMG_9926\ copy\ 1.png);
+
+
+}
+.img0 h1{
+  color: #f5f5f5;
+  font-size: 2rem;
+  text-align: center;
+margin-bottom: 5rem;
+margin-left: 6rem;
+color: white;
+letter-spacing: 0.10rem;
+font-family: 'Sura', serif;
+  
+}
+.img11 h1{
+  color: #f5f5f5;
+  font-size: 2rem;
+  text-align: center;
+margin-bottom: 5rem;
+margin-left: 6rem;
+color: white;
+letter-spacing: 0.10rem;
+font-family: 'Sura', serif;
+  
+}
+.img22 h1{
+  color: #f5f5f5;
+  font-size: 2rem;
+  text-align: center;
+margin-left: 8rem;
+margin-bottom: 5rem;
+color: white;
+letter-spacing: 0.10rem;
+font-family: 'Sura', serif;
+}
+
+
+.btn1{
+  font-size: 1rem;
+position: relative;
+top:-2rem;
+right: 9rem;
+padding: 0.5rem 1.8rem;
+background-color: none;
+border:solid 1px;
+color: #f5f5f5;
+text-decoration: none;
+font-family: 'Sura', serif;
+
+border-color: #f5f5f5;
+}
+.btn2{
+  font-size: 1rem;
+  margin-top:2rem;
+padding: 0.5rem 1.8rem;
+background-color: none;
+border:solid 1px;
+color: #ffffff;
+text-decoration: none;
+font-family: 'Sura', serif;   
+background-color: #000000;
+border-color: #000000;
+}
+
+
+.forth{
+  background-color: #0E0E0E;
+  height: 80vh;
+  width: 100%;
+}
+.major1{
+  height: 90%;
+  width:90%;
+  display: flex;
+ flex-direction: row;
+
+  justify-content: space-around;
+  margin: auto;
+
+}
+.cont1{
+  width:55%;
+  height: 60vh;
+ 
+  margin: auto;
+text-align: center;
+color: #f5f5f5;
+
+}
+
+.cont1 h1{
+  font-family: 'Viaoda Libre', cursive;
+  margin-top: 5rem;
+  letter-spacing: 0.2REM;
+}
+.cont1 h2{
+  font-family: 'Style Script', cursive;
+  margin-top: 0.2rem;
+  letter-spacing: 0.2rem;
+  font-weight: 300;
+  font-size: 1.75rem;
+  line-height: 50px;
+}
+.cont1 p{
+  font-family: 'Sura', serif;
+  
+  letter-spacing: 0.12px;
+  font-size: 1.25rem;
+  width:80%;
+  align-self: center;
+  margin: auto;
+  margin-top: 6rem;
+ 
+}
+.cont1 h3{
+  font-family: 'Style Script', cursive;
+  margin-top: 4rem;
+  letter-spacing: 0.12px; 
+  font-size: 2.5rem;
+  letter-spacing: 0.2rem;
+  font-weight: 200;
+}
+.img1{
+  width:30%;
+  height: 70vh;
+  background-image: url(img/WhatsApp\ Image\ 2022-12-30\ at\ 3.33\ 1.png);
+  background-size: 100% 100%;
+  margin: auto;
+  margin-top: 2rem;
+
+}
+
+.major2{
+  height: 90%;
+  width:90%;
+  display: flex;
+ flex-direction: row;
+
+  justify-content: space-around;
+  margin: auto;
+
+}
+.cont2{
+  width:55%;
+  height: 60vh;
+  margin: auto;
+  text-align: center;
+
+}
+.cont2 h1{
+  font-family: 'Style Script', cursive;
+  margin-top: 5rem;
+  margin-bottom: 2rem;
+  letter-spacing: 0.12rem;
+  font-size: 3rem;
+  font-weight: 300;
+
+}
+.cont2 p{
+  font-family: 'Sura', serif;
+  width:90%;
+  margin: auto;
+  font-size: 1.25rem;
+  font-weight: 300;
+  margin-bottom: 1.2rem;
+
+}
+.cont2 button{
+  margin: 2rem;
+  font-family: 'Sura', serif;
+}
+.img2{
+  width:28%;
+  height: 70vh;
+ background-image: url(img/IMG_1104\ copy\ 1.png);
+ background-size: 100% 100%;
+  margin: auto;
+  margin-top: 2rem;
+
+}
+.fifth{
+  background-color: #6da7c871;
+
+  height: 80vh;
+}
+
+.footer{
+  
+  height: 100vh;
+  /* width:100vw; */
+  background-color: rgb(7, 7, 7);
+width: 100;
+}
+
+.upp{
+  display: flex;
+  flex-direction: row;
+  margin-left: 10px;
+  font-weight: lighter;
+}
+ 
+.location {
+  font-family:  serif;
+  text-align: start;
+  color: white;
+  margin-left: 100px;
+  margin-top: 100px;
+  font-weight: lighter;
+}
+
+.location h1{
+  /* font-family: 'Source Serif Pro', serif; */
+    padding-bottom: 20px;
+    
+    font-family: 'Viaoda Libre';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 34px;
+/* or 144% */
+
+letter-spacing: 0.2em;
+  }
+  .location p{
+    font-family: 'Source Serif Pro', serif;
+    font-size: 1.5em;
+    font-weight: lighter;
+    font-family: 'Tajawal';
+font-style: normal;
+font-weight: 400;
+font-size: 17px;
+line-height: 28px;
+/* or 156% */
+
+letter-spacing: 0.2em;
+  }
+  @import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro:ital,wght@1,200&family=Sura&display=swap');
+  .contact{
+    font-family: 'Source Serif Pro', serif;
+    margin-left: 200px;
+    margin-top: 100px;
+    width:250px;
+
+    color: white;
+  }
+  .contact h1{
+    font-weight: lighter;
+    font-size: 2.5em;
+    padding-bottom: 20px;
+    font-family: 'Viaoda Libre';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 40px;
+/* or 167% */
+
+letter-spacing: 0.2em;
+  }
+
+.contact p{
+  font-family: 'Tajawal';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 30px;
+  /* identical to box height, or 156% */
+  
+  letter-spacing: 0.2em;
+
+}
+  .contact a{
+    color: #fff;
+  }
+  .social 
+  {
+   
+    height: 20vh;
+    width:25vw;
+    color: rgb(255, 255, 255);
+    margin-left: 200px;;
+    margin-top: 100px;
+  }
+  .social h1{
+    padding-bottom: 20px;
+    font-size: 2.2em;
+    font-family: 'Viaoda Libre';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 40px;
+letter-spacing: 0.2em;
+  }
+
+  .social a{
+    align-items: start;
+    padding: 10px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+  }
+ .social i :hover{
+  cursor: pointer;
+ }
+ .formb{
+  font-family: 'Source Serif Pro', serif;
+  padding-top:0px;
+  margin-left: 85px;
+  color: white;
+  height:50vh;
+  width:40%;
+  
+ }
+ .formb h1{
+  margin-left: 30px;
+  padding-top: 10px;
+  font-family: 'Viaoda Libre';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 40px;
+/* identical to box height, or 167% */
+
+letter-spacing: 0.2em;
+ }
+.form2 input{
+  padding: 10px 10px 10px 10px;
+  background-color:#635e878d;
+  color: #fff;
+  font-size: 1.0em;
+  cursor:pointer;
+  border: none;
+  transition: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+
+}
+
+.form2 {
+  padding: 30px;
+
+  
+}
+.form2 ::placeholder{
+  
+  color: #fff;
+  font-family: 'Tajawal';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+border: none;
+line-height: 28px;
+/* identical to box height, or 187% */
+
+display: flex;
+align-items: center;
+letter-spacing: 0.3em;
+  
+}
+.msg-top::placeholder{
+  text-align: start;
+  font-family: 'Tajawal';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 28px;
+/* identical to box height, or 187% */
+
+display: flex;
+align-items: center;
+letter-spacing: 0.3em;
+}
+
+.form-col{
+  display: flex;
+  flex-direction: row;
+  padding-right: 20px;
+ 
+
+  
+  
+}
+.col{
+  padding-top:  30px;
+  padding-right: 20px;
+}
+.form-control3{
+  padding-top: 30px;
+  height: 100px;
+  width:435px;
+ 
+}
+.msg-top{
+  padding-top: 30px;
+
+}
+.submit input{
+  
+  font-family: 'Source Serif Pro', serif;
+  background-color:#58537C;
+  color: white;
+  margin-left: 350px;
+  margin-top: 12px;
+  cursor: pointer;
+}
+.submit :hover{
+  cursor: pointer;
+}
+.credit p {
+  font-family: 'Source Serif Pro', serif;
+  margin-left: 35px;
+  font-size: 1.0em;;
+
+}
+.credit a{
+  font-family: 'Style Script' cursive;
+
+font-weight: 400;
+font-size: 16.6524px;
+line-height: 50px;
+/* identical to box height, or 303% */
+text-decoration: none;
+color: #f5f5f5;
+
+letter-spacing: 0.15em;
+
+}
+.credit a:hover{
+  cursor:pointer ;
+}
+.form-control1
+.form-control2
+.form-control3
+{
+  font-family: 'Source Serif Pro', serif;
+  color: #fff;
+
+}
